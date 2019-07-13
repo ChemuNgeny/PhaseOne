@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PhaseOneChallengeAndroid</string>
+    <string name="button_one">Button 1</string>
+    <string name="button_two">Button 2</string>
+    <string name="about_alc">ALC 4 Phase 1</string>
+    <string name="profile">My Profile</string>
+    <string name="profile_name">Nancy Chemutai</string>
+    <string name="track">Android</string>
+    <string name="profile_country">Kenya</string>
+    <string name="profile_email">chemutain@gmail.com</string>
+    <string name="profile_phone_number">254711538099</string>
+    <string name="profile_pic">Profile</string>
+    <string name="track_name">Track:</string>
+    <string name="country_name">Country:</string>
+    <string name="email_add">Email:</string>
+    <string name="phone_num">Phone Number:</string>
+    <string name="slack">Slack Username:</string>
+    <string name="slack_username">Nancy</string>
+</resources>
