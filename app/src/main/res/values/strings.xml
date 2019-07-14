@@ -15,5 +15,6 @@
     <string name="email_add">Email:</string>
     <string name="phone_num">Phone Number:</string>
     <string name="slack">Slack Username:</string>
-    <string name="slack_username">Nancy</string>
+    <string name="slack_username">\@Nancy</string>
+
 </resources>
