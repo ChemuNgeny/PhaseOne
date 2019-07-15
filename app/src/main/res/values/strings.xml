@@ -10,11 +10,6 @@
     <string name="profile_email">chemutain@gmail.com</string>
     <string name="profile_phone_number">254711538099</string>
     <string name="profile_pic">Profile</string>
-    <string name="track_name">Track:</string>
-    <string name="country_name">Country:</string>
-    <string name="email_add">Email:</string>
-    <string name="phone_num">Phone Number:</string>
-    <string name="slack">Slack Username:</string>
     <string name="slack_username">\@Nancy</string>
 
 </resources>
