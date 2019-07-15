@@ -34,23 +34,23 @@ public class ActivityB extends AppCompatActivity {
         ws.setJavaScriptEnabled(true);//enable javascript in my web app
         ws.setUseWideViewPort(true);
         ws.setLoadWithOverviewMode(true);
-        webView_about.setWebViewClient(new WebViewClient());//prevents url from opening from browser
+        webView_about.setWebViewClient(new WebClient());//prevents url from opening from browser
         webView_about.loadUrl("https://andela.com/alc/");
 
     }
-    private class WebClient extends WebViewClient{
-        @Override
-        public boolean shouldOverrideUrlLoading(WebView view, String url) {
-            view.loadUrl(url);
-            return true;
-        }
+//     private class WebClient extends WebViewClient{
+//         @Override
+//         public boolean shouldOverrideUrlLoading(WebView view, String url) {
+//             view.loadUrl(url);
+//             return true;
+//         }
 
-        String TAG = "Error";
-        @Override
-        public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
-            handler.proceed();
-            Log.d(TAG, "onReceivedSslError: "+error);
-            Toast.makeText(ActivityB.this, "Error" + handler, Toast.LENGTH_SHORT).show();
-        }
-    }
+//         String TAG = "Error";
+//         @Override
+//         public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
+//             handler.proceed();
+//             Log.d(TAG, "onReceivedSslError: "+error);
+//             Toast.makeText(ActivityB.this, "Error" + handler, Toast.LENGTH_SHORT).show();
+//         }
+//     }
 }
