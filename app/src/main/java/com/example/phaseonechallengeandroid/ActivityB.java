@@ -38,19 +38,5 @@ public class ActivityB extends AppCompatActivity {
         webView_about.loadUrl("https://andela.com/alc/");
 
     }
-//    private class WebClient extends WebViewClient{
-//        @Override
-//        public boolean shouldOverrideUrlLoading(WebView view, String url) {
-//            view.loadUrl(url);
-//            return true;
-//        }
-//
-//        String TAG = "Error";
-//        @Override
-//        public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
-//            handler.proceed();
-//            Log.d(TAG, "onReceivedSslError: "+error);
-//            Toast.makeText(ActivityB.this, "Error" + handler, Toast.LENGTH_SHORT).show();
-//        }
-//    }
+
 }
