@@ -4,9 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_alc_4_0"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:layout_marginBottom="20dp"/>
 
     <Button
         android:id="@+id/btnOne"

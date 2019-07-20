@@ -11,5 +11,6 @@
     <string name="profile_phone_number">254711538099</string>
     <string name="profile_pic">Profile</string>
     <string name="slack_username">\@Nancy</string>
+    <string name="welcome_to_alc_4_0">Welcome to ALC 4.0</string>
 
 </resources>
